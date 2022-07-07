@@ -1,4 +1,8 @@
 stages:
+  always_run:
+    cmd: python rough/test.py
+    outs:
+      - rough/test.txt
   load_data:
     cmd: python src/stage_01_load_save.py --config=config/config.yaml
     deps:
