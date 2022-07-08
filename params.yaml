@@ -1,6 +1,6 @@
 base:
-  random_state: 42
-  test_size: 0.3
+  random_state: 45
+  test_size: 0.4
 
 
 model_params:
